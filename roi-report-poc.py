@@ -9,6 +9,17 @@
 #
 # Please send bugs to: jmarts@google.com
 #
+# Example output:
+#
+#  Hours saved by playbook:
+#  
+#  {'Copy of Enrich Falcon Alerts': 6004,
+#   'Enrich Defender 365 Alerts': 3007,
+#   'Enrich Defender ATP Alerts': 420,
+#   'Enrich Falcon Alerts': 5,
+#   'Enrich FireEye Alerts': 875,
+#   'Enrich Rapid7  Alerts': 3840}
+#
 
 ##############################################################################
 # EDIT HERE
