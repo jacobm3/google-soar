@@ -193,6 +193,8 @@ if __name__ == '__main__':
     plt.xticks(rotation=45, ha="right")  # Rotate x-axis labels for better readability
     plt.tight_layout()
     plt.show()
+    # alternatively you can change this to plt.save() to save the chart locally
+    # if not running in jupyter
 
     # Print numeric summary of total minutes saved
     print("\nTotal Minutes Saved per Playbook:")
@@ -205,3 +207,7 @@ if __name__ == '__main__':
     plt.pie(total_minutes_saved.values(), labels=total_minutes_saved.keys(), autopct='%1.1f%%', startangle=90, colors=colors)
     plt.title("Total Minutes Saved per Playbook")
     plt.show()
+    # alternatively you can change this to plt.save() to save the chart locally
+    # if not running in jupyter
+
+
