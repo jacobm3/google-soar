@@ -7,6 +7,11 @@
 #      SOAR API key in the APP_KEY environment variable
 #      SOAR API base URL in the BASE_URL environment variable
 #
+# If running from a Jupyter notebook, you can set those in the top cell like this:
+#      import os
+#      os.environ['BASE_URL'] = 'https://acme-01.siemplify-soar.com'
+#      os.environ['APP_KEY'] = 'aaaa-bbbb-cccc-dddd-eeee'
+#
 # Please send bugs to: jmarts@google.com
 #
 # Example output:
