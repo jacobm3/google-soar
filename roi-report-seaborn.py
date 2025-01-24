@@ -3,16 +3,14 @@
 # This script calculates the amount of analyst time saved with Google SOAR based
 # on playbook execution volume and a map of time saved by playbook title.
 #
-# It expects:
-#      SOAR API key in the APP_KEY environment variable
-#      SOAR API base URL in the BASE_URL environment variable
+# Required environment variables:
+#      APP_KEY - SOAR API key
+#      BASE_URL - SOAR API base URL
 #
 # If running from a Jupyter notebook, you can set those in the top cell like this:
 #      import os
 #      os.environ['BASE_URL'] = 'https://acme-01.siemplify-soar.com'
 #      os.environ['APP_KEY'] = 'aaaa-bbbb-cccc-dddd-eeee'
-#
-# Please send bugs to: jmarts@google.com
 #
 # Example output:
 #
